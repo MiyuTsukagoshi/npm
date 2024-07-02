@@ -16,7 +16,7 @@
     background-image: url('haikei.jpg'); 
     background-size: cover; 
     background-position: center; 
-    height: 100vh; 
+    height: auto; 
 }
 
 .box {
@@ -126,4 +126,133 @@
       .sample_link1:hover{
         color: #cdd2d3;
       }
-    
+
+
+      h1 {
+        font-size: 70px;
+        color: white;
+        line-height: 100px;
+        margin-top: 130px;
+     } 
+     p {
+      color:white;
+      line-height: 25px;
+     }  
+     h2{
+      font-size: 35px;
+      line-height: 50px;
+      color: white;
+     }
+     .div {
+      overflow:hidden
+     }
+     .font {
+      color:white;
+      line-height: 25px;
+     }
+
+     .btn2{
+      display: flex; 
+      align-items: center; 
+      margin-top: 60px;
+      margin-bottom: 70px;
+      text-align: center;
+      justify-content: center;
+     }
+
+     .border_btn02{
+      color: #020202;
+      background-color: #ffd504;
+      border-radius: 100vh;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.5;
+      position: relative;
+      display: inline-block;
+      padding: 1rem 3rem;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+      text-align: center;
+      vertical-align: middle;
+      text-decoration: none;
+      letter-spacing: 0.1em;
+      color: #212529; 
+      margin-right: 30px;
+      box-shadow: 0 6px 8px rgba(0,0,0,0.3);
+      font-family: Arial Black;
+     }
+
+     .border_btn03{
+      color: #fffcfc;
+      background-color: #d0149b;
+      border-radius: 100vh;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.5;
+      position: relative;
+      display: inline-block;
+      padding: 1rem 3rem;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+      text-align: center;
+      vertical-align: middle;
+      text-decoration: none;
+      letter-spacing: 0.1em;
+      color: #f8f9fa;
+      border: 1px solid #fdfafa;
+      font-family: Arial Black;
+     }
+     
+.box2{
+  background:white;
+  padding-bottom:50px;
+  position: relative;
+  top: 10px;
+  background:white;
+  padding-bottom:5px;
+  align-items: center; 
+  height: 600px;
+  border-bottom: 1px solid #dee1e2;
+}
+
+.img-wrapper {
+  width: 110px;
+  height: 98px;
+  margin: 0 auto;
+  text-align: center; /* テキストを中央に揃える */
+}
+
+
+.box2 h2{
+  color:#020202;
+  margin-top: 90px;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.box2 p{
+  color:#020202;
+}
+
+.box3{
+  background:white;
+  padding-bottom:10px;
+  position: relative;
+  top: 10px;
+  padding-bottom:5px;
+  align-items: center; 
+  height: 400px;
+  display: flex;
+}

@@ -253,6 +253,58 @@
   top: 10px;
   padding-bottom:5px;
   align-items: center; 
-  height: 400px;
+  height: 350px;
   display: flex;
+  color:#020202;
+}
+
+
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #494848;
+  font-family: "Tiny5", sans-serif;
+  border-radius: 5px; 
+  width: 1em;
+  height: 1em;
+  border: none;
+  text-decoration: none;
+  display: flex; /* Flexbox を使用して中央揃えする */
+  justify-content: center; /* 横方向（X軸）で中央揃え */
+  align-items: center;
+  font-size: 50px;
+  margin-left: 40px;
+ margin-right: 80px;
+ margin-bottom:20px;
+}
+
+.icon_cat{
+ margin-left:35px;
+ margin-bottom:30px;
+}
+
+.box3 p{
+  color:#020202;
+  margin-right: 200px;
+  font-family:'Arial Black',sans-serif;
+  margin-bottom: 20px;
+}
+
+.tag{
+  display: flex; 
+}
+
+.btn_font{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.tag1{
+  margin-right: 150px;
+}
+.tag2{
+  margin-bottom: 45px;
+  margin-right: 150px;
 }
